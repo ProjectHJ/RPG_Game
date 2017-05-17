@@ -33,6 +33,7 @@ public class Main {
 
 	public static Date date = new Date();
 	public static SimpleDateFormat ft = new SimpleDateFormat("kk:mm:ss");
+	public static long timeNow = System.currentTimeMillis();
 
 	private static Goblin goblin;
 

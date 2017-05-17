@@ -59,7 +59,7 @@ public class Goblin extends Enemy {
 
 	@Override
 	protected void attack() {
-		System.err.println("Goblin: Shooting " + Player.name + "_" + Player.name.length());
+		System.err.println("[" + Main.ft.format(Main.date) + "]" + "Goblin: Shooting " + Player.name + "_" + Player.name.length());
 	}
 
 	@Override
