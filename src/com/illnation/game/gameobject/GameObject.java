@@ -4,8 +4,6 @@ import static org.lwjgl.opengl.GL11.glPopMatrix;
 import static org.lwjgl.opengl.GL11.glPushMatrix;
 import static org.lwjgl.opengl.GL11.glTranslatef;
 
-import java.awt.Graphics;
-
 import com.illnation.engine.Sprite;
 import com.illnation.error.ErrorCodes;
 import com.illnation.game.gameobject.enemy.monster.Goblin;
@@ -16,9 +14,7 @@ public abstract class GameObject {
 	protected float x, y, sx, sy;
 	protected Sprite spr;
 	protected Goblin goblin;
-
-	protected static final int PLAYER_ID = 2;
-	protected static final int ITEM_ID = 1;
+	protected static final int ITEM_ID = 1, PLAYER_ID = 2;
 
 	protected boolean[] flags = new boolean[1];
 
