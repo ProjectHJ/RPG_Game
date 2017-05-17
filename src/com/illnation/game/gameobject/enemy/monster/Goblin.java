@@ -6,6 +6,7 @@ import com.illnation.engine.Main;
 import com.illnation.game.gameobject.GameObject;
 import com.illnation.game.gameobject.StatObject;
 import com.illnation.game.gameobject.enemy.Enemy;
+import com.illnation.game.gameobject.player.Player;
 import com.illnation.game.gameobject.player.Stats;
 
 public class Goblin extends Enemy {
@@ -58,7 +59,7 @@ public class Goblin extends Enemy {
 
 	@Override
 	protected void attack() {
-		System.err.println("Goblin: Shooting!!");
+		System.err.println("Goblin: Shooting " + Player.name + "_" + Player.name.length());
 	}
 
 	@Override
